@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import SignUp from '../src/components/Sign-Up/SignUp.jsx'
+import Sign from './components/Sign-Up/Sign'
+
+import LandingPage from './pages/Landing-Page/Landing-page'
 
 function App() {
+  const [user, setUser] = useState(localStorage.getItem('user') || false)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage setUser={setUser} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

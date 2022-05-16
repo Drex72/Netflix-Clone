@@ -1,0 +1,63 @@
+:root {
+    --main--bg: #181717
+}
+
+.content {
+    background-color: #000000;
+    margin: 2em 0;
+    
+
+}
+img {
+    width:50%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 2em;
+    border-top: .7em solid var(--main--bg);
+}
+.text3 {
+    width: 50%;
+}
+.question {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.question h1 {
+    margin-bottom: 1em;
+}
+.frequent-question {
+    display: flex;
+    background-color: grey;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+.frequent-question a {
+    color: white;
+    text-decoration: none;
+}
+.frequent-question p {
+    font-size: 1.3rem;
+}
+.email {
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    outline: none;
+}
+
+.footer-form {
+    display: flex;
+    margin-top: 2.5em;
+    justify-content: space-between;
+    align-items: center;
+}

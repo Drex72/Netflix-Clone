@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #000000;
+    font-size: 15px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right:  1.5em;
+    align-items: center;
+    position: fixed;
+}
+.hero {
+    height:  100vh;
+}
+
+.logo {
+    width: 15%;
+
+    
+}
+.signin {
+    background-color: #E30914;
+    padding: .7em 1.5em;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    color: white;
+}
+
+
+.login {
+    display: flex;
+    gap: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.login label {
+    margin-bottom: 1.7em;
+    display: block;
+    text-align: start;
+}
+
+.login input {
+    margin-bottom: 1.5em;
+    padding: .7em .3em;
+    background-color: rgb(29, 26, 26);
+    outline: none;
+    border: none;
+    color: rgb(190, 181, 181);
+    border-radius: 5px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.remember p {
+    display: inline;
+    margin-left: .5em;
+}
+
+
+
+button {
+    padding: .5em 1em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.body {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(35%, -50%);
+
+}
+.form {
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.form .background {
+    background: url(../../Images/pic3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #E30914;
+    color: rgb(190, 181, 181);
+    display: flex;
+    width: 50%;
+    border-radius: 8px;
+}
+
+
+.text2 {
+    width: 80%;
+    margin: 0 auto 2em;
+    line-height: 1.5;
+    align-self: flex-end;
+    
+}
+
+.form .background .text h1 {
+    margin-bottom: .1em;
+}
+
+
+.authentication {
+    text-align: center;
+    background-color: black;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.form .authentication .container2 {
+    color: rgba(53, 49, 49, 0.76);
+    width: 80%;
+    margin: 2em auto;
+} 
+
+.container2 h1 {
+    margin-bottom: 1em;
+    font-weight: normal;
+    text-align: start;
+}
+
+.noaccount {
+    margin-top: 2em;
+}
+
+.toggle-btn {
+    margin-left: .5em;
+}
